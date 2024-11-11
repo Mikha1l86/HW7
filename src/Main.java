@@ -28,13 +28,13 @@ public class Main {
                 System.out.println();
             }
             for (int i = 0; i < arr2.length; i++) {
-                System.out.print (arr2[i]);
+                System.out.print(arr2[i]);
                 if (i != arr2.length - 1) {
                     System.out.print(", ");
                 }
                 System.out.println();
                 for (int I = 0; i < arr3.length; i++) {
-                    System.out.print (arr3[i]);
+                    System.out.print(arr3[i]);
                     if (i != arr3.length - 1) {
                         System.out.print(", ");
                     }
@@ -44,7 +44,7 @@ public class Main {
 //Задача 3
             System.out.println("Задача 3");
             System.out.print("arr1 в обратном порядке: ");
-            for (int i = arr1.length - 1; i >=0; i--) {
+            for (int i = arr1.length - 1; i >= 0; i--) {
                 System.out.print(arr1[i]);
                 if (i != 0) {
                     System.out.print(", ");
@@ -52,7 +52,7 @@ public class Main {
                 System.out.println();
             }
             System.out.print("arr2 в обратном порядке: ");
-            for (int i = arr2.length - 1; i >=0; i--) {
+            for (int i = arr2.length - 1; i >= 0; i--) {
                 System.out.print(arr2[i]);
                 if (i != 0) {
                     System.out.print(", ");
@@ -60,7 +60,7 @@ public class Main {
                 System.out.println();
             }
             System.out.print("arr3 в обратном порядке: ");
-            for (int i = arr3.length - 1; i >=0; i--) {
+            for (int i = arr3.length - 1; i >= 0; i--) {
                 System.out.print(arr3[i]);
                 if (i != 0) {
                     System.out.print(", ");
@@ -70,8 +70,8 @@ public class Main {
             //Задача 4
             System.out.println("Задача 4");
             int[] arr = {1, 2, 3, 4, 5, 6};
-            for (int i = 0; i < arr.length; i++){
-                if (arr [i] % 2 != 0) {
+            for (int i = 0; i < arr.length; i++) {
+                if (arr[i] % 2 != 0) {
                     arr[i]++;
                 }
                 System.out.printf(Arrays.toString(arr));
