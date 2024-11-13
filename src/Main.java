@@ -77,5 +77,47 @@ public class Main {
                 System.out.printf(Arrays.toString(arr));
             }
         }
+//Урок 2. Задача 1.
+System.out.println("Урок 2. Задача 1.");
+        int[] expenses = new int[] {1, 2, 3, 4, 5};
+        int totalExpenses = 0;
+
+        for (int i = 0; i < expenses.length; i++) {
+            totalExpenses += expenses[i];
+        }
+        System.out.println("Сумма трат за месяц составила " + totalExpenses + " рублей.");
+
+//Задача 2.
+System.out.println("Задача 2.");
+        int minExpense = expenses[0];
+        int maxExpense = expenses[0];
+
+        for (int i = 0; i < expenses.length; i++) {
+            totalExpenses += expenses[i];
+            if (expenses[i] < minExpense){
+                minExpense = expenses[i];
+                }
+            if (expenses[i] > maxExpense) {
+                maxExpense = expenses[i];
+            }
+            System.out.println("Минимальная сумма трат за день составила " + minExpense + " рублей.");
+            System.out.println("Максимальная сумма трат за день составила " + maxExpense + " рублей.");
+        }
+
+//Задача 3.
+System.out.println("Задача 3.");
+        int sum = 0;
+        for (int i = 0; i < expenses.length; i++) {
+            sum += expenses[i];
+        }
+        double average = (double) sum / expenses.length;
+        System.out.println("Средняя сумма трат за день составила " + average + " рублей.");
+
+//Задача 4.
+System.out.println("Задача 4.");
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reverseFullName.length; i > 0; i--) {
+            System.out.print(reverseFullName[i - 1]);
+        }
     }
 }
